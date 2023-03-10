@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Text:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Text Here"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Key:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Key Here"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnDecrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+</LinearLayout>
